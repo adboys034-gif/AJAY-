@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial;
+    background-image: url(https://www.chhotabheem.com/image/catalog/wallpaper/1920x1200/series_03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dashboard{
+    display:flex;
+    min-height:100vh;
+}
+
+.sidebar{
+    width:250px;
+    background:#16213e;
+    color:white;
+    padding:30px;
+}
+
+.sidebar h2{
+    margin-bottom:30px;
+}
+
+.sidebar ul{
+    list-style:none;
+}
+
+.sidebar li{
+    margin:20px 0;
+    font-size:18px;
+}
+
+.sidebar i{
+    margin-right:10px;
+}
+
+.portfolio-link{
+    display:inline-block;
+    margin-top:40px;
+    background:#00b894;
+    color:white;
+    padding:12px 20px;
+    border-radius:10px;
+    text-decoration:none;
+}
+
+.main-content{
+    flex:1;
+    padding:40px;
+}
+
+.topbar{
+    margin-bottom:40px;
+}
+
+.cards{
+    display:flex;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:250px;
+    padding:30px;
+    background:white;
+    border-radius:15px;
+    box-shadow:0 0 20px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+.card h2{
+    font-size:40px;
+    color:#16213e;
+}
+
+.card p{
+    margin-top:10px;
+    font-size:18px;
+}
